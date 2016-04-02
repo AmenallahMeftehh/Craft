@@ -1,0 +1,161 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,img,ul,li,form,label,article,section {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+list-style-type:none;
+}
+
+article,aside,details,header,menu,nav,section {
+display:block;
+}
+
+html, body {
+	background: #E5E6E8;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	 font-size: 13px; color: #222;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 15px;
+	line-height: 14px;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 90%;
+	max-width: 900px;
+	background: #FAFAFA;
+	margin: 20px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #E5E6E8;
+	background: #F5F5F5;
+}
+
+#name h1 {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 19.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+#name {
+	float: left;
+}
+
+#infoDetails {
+	float: right;
+
+
+}
+
+#infoDetails ul {
+	list-style-type: none;
+	font-size: 18px;
+	margin-top: 70px;
+}
+
+#infoDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+list-style-type: none;
+}
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 75%;
+}
+
+.sectionTitle h1 {
+	font-family:sans-serif;
+	font-style: italic;
+	font-size: 25px;
+	color: ##373863;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	.mainDetails {
+		padding: 15px 15px;
+	}
+
+	section {
+		padding: 15px 0 0;
+	}
+
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
