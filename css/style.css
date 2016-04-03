@@ -1,4 +1,4 @@
-html,body,div,span,h1,h2,h3,h4,h5,h6,img,ul,li,form,label,article,section {
+html,body,div,span,h3,h4,h5,h6,img,ul,li,form,label,article,section {
 border:0;
 font:inherit;
 font-size:100%;
@@ -7,11 +7,22 @@ padding:0;
 vertical-align:baseline;
 list-style-type:none;
 }
-
+h1{
+	text-shadow: 1px 1px 4px #252524;
+}
+h2{
+text-shadow: 1px 1px 2px #252524;
+}
+a{
+	text-align: center;
+text-shadow: 1px 1px 2px #252524;
+}
 article,aside,details,header,menu,nav,section {
 display:block;
 }
-
+#aa{}
+#bb{}
+#cc{}
 html, body {
 	background: #E5E6E8;
 	font-family: 'Lato', helvetica, arial, sans-serif;
@@ -32,6 +43,9 @@ p {
 	background: #FAFAFA;
 	margin: 20px auto;
 }
+.container{
+display: block;}
+
 
 .mainDetails {
 	padding: 25px 35px;
@@ -78,7 +92,10 @@ p {
 
 
 }
+.menu li{
+	display: inline;
 
+}
 #infoDetails ul {
 	list-style-type: none;
 	font-size: 18px;
