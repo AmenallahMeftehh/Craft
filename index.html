@@ -19,23 +19,23 @@
 	    		<ul  class="nav navbar-nav"  >
 	    			<li ><a href="#mainArea">Diplomes</a></li>
 	    			<li ><a href="#aa">Experiences Profesionelles</a></li>
-	    			<li ><a href="#bb">Compétances</a></li>
+	    			<li ><a href="#bb">Compétances,Centres d'intérêt et Langues</a></li>
 	    			<li tyle="text-align:center"><a href="#cc">Projets Académiques</a></li>
 	    		</ul>
-<img src="FB-logo-50-x-50.png" alt="" />
-<img src="Twitter_logo_blue_48.png" alt="" />
-<img src="LinkedIn_logo.png" alt="" />
-
+<a href="https://www.facebook.com/amenallah.mefteh.29"><img  src="images/FB-logo-50-x-50.png" alt="" /></a>
+<a href="https://twitter.com/AmenallahMefteh"><img src="images/Twitter_logo_blue_48.png" alt="" /></a>
+<a href="https://tn.linkedin.com/in/amenallah-mefteh-2613a7a1"><img src="images/LinkedIn_logo.png" alt="" /></a>
+<a href="http://www.viadeo.com/profile/002232vx0pgj6v86"><img src="images/viadeo_logo.png" alt="" /></a>
 
 	<!-- <img src="images/1.png" id="bg"></img> -->
 
 	</div>
 
-<div id="cv" class="instaFade">
+<div id="cv">
 	<!--image -->
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Amen Allah MEFTEH" />
+			<img src="images/headshot.jpg" alt="Amen Allah MEFTEH" />
 		</div>
 <!--Nom Prénom et Profession-->
 		<div id="name">
@@ -77,18 +77,18 @@
 			</div>
 
 			<div class="sectionContent" >
-				<article>
-
-					<p>{{cvs.experience.experience1}}</p>
-</article>
-				<article>
-
-					<p><p>{{cvs.experience.experience2}}</p></p>
-				</article>
-
-				<article>
-
-					<p>{{cvs.experience.experience3}}</p> </article>
+			  	<article>
+					<p>{{cvs.experience.experience5}}</p>
+          </article>
+			  	<article>
+				 	<p><p>{{cvs.experience.experience1}}</p></p>
+			  	 </article>
+			  	<article>
+					<p>{{cvs.experience.experience2}}</p> </article>
+					<article>
+						<p>{{cvs.experience.experience3}}</p> </article>
+						<article>
+						<p>{{cvs.experience.experience4}}</p> </article>
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -96,15 +96,38 @@
 <!--informations sur les compétances-->
 		<section>
 			<div class="sectionTitle" id="bb">
-				<h1>Compétances</h1>
-			</div>
+				<!-- section pour les compétances -->
+				<div class="row">
+					<div class="col-md-6">
+						<h1>Compétances</h1>
 
-			<div class="sectionContent">
+					<div class="sectionContent">
+						<ul>
+							<li ng-repeat="skill in cvs.skills">
+								{{skill}}</li>
+						</ul>
+		      </div>
+				</div>
+<!-- section pour les centres d'interet -->
+<div class="col-md-6">
+<h1>Centres d'intérêt</h1>
+			<div class="sectionContent1">
+
 				<ul>
-					<li ng-repeat="skill in cvs.skills">
-						{{skill}}</li>
+					<li ng-repeat="centr in cvs.centre">
+						{{centr}}</li>
 				</ul>
-			</div>
+			<h1> Langues</h1>
+						<div class="sectionContent1">
+
+							<ul>
+								<li ng-repeat="lng in cvs.langue">
+									{{lng}}</li>
+							</ul>
+
+		</div>
+	</div>
+</div>
 			<div class="clear"></div>
 		</section>
 
