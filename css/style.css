@@ -45,7 +45,11 @@ p {
 }
 .container{
 display: block;}
-
+img{
+	float: right;
+	width:45px;
+	height: 45px;
+}
 
 .mainDetails {
 	padding: 25px 35px;
