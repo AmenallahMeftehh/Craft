@@ -1,0 +1,35 @@
+<html ng-app="amen">
+<head>
+<title>Login</title>
+
+
+<meta name="description" content="login"/>
+<meta charset="UTF-8">
+<!--css -->
+<link type="text/css" rel="stylesheet" href="../css/style.css">
+<!--Bootstrap -->
+<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body id="top" >
+
+<div ng-controller='userLogin'>
+  <form name ='form1'>
+
+      <p>Welcome : {{login}}</p>
+
+    Login :  <input type='text' name="login" required ng-model="login">
+
+    Password : <input type='password' required ng-model="password">
+
+    <button type="button" ng-click="submit()"> Se Connecter</button>
+  </form>
+</div>
+<!--angular -->
+<script  src="../angular.min.js"></script>
+<script  src="../app.js"></script>
+<!--controllers -->
+
+
+</body>
+</html>
