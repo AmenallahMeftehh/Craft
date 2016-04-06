@@ -7,6 +7,12 @@ padding:0;
 vertical-align:baseline;
 list-style-type:none;
 }
+
+.login
+{
+	margin: 10em auto;
+	width : 10px;
+}
 h1{
 	text-shadow: 1px 1px 4px #252524;
 }
@@ -17,16 +23,17 @@ a{
 	text-align: center;
 text-shadow: 1px 1px 2px #252524;
 }
+
 article,aside,details,header,menu,nav,section {
 display:block;
 }
 #aa{}
 #bb{}
 #cc{}
-html, body {
+/*html, body {
 	background: #E5E6E8;
 	font-family: 'Lato', helvetica, arial, sans-serif;
-	 font-size: 13px; color: #222;}
+	 font-size: 13px; color: #222;}*/
 
 .clear {clear: both;}
 
@@ -48,8 +55,13 @@ p {
 display: block;}
 img{
 	float: right;
-	width:45px;
-	height: 45px;
+	/*width:45px;
+	height: 45px;*/
+}
+img1{
+	/*margin: 0 auto;*/
+	width:20%;
+	height: 20%
 }
 
 .mainDetails {

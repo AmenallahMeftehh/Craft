@@ -1,18 +1,24 @@
 
-
-  <form name ='form1'>
-    <div >
-    <div class='form-group'>
-      <p>Welcome : {{login}}</p>
-      <label for='examplInputLogin'>Login</label>
-      <input type='text' id="examplInputLogin"
-      class="form-controller"  ng-model="login">
-    </div>
-    <div class='form-group'>
-      <label for ='examplInputPw'>Password</label>
-      <input type='password' class='form-controller'
-      id='examplInputPw'  ng-model="password">
-    </div>
-    <button type="button" ng-click="sub()"> Se Connecter</button>
+  <form>
+    <div class="row">
+<div  class="col-md-4">
+  <img class="img1 img-responsive" src="images/15468283-cv-curriculum-vitae-concetto-di-tag-cloud-parola-su-sfondo-bianco.jpg"  />
 </div>
+
+  <div class="col-md-4 login">
+    <p>Welcome : {{login}}</p>
+    <div>
+      <label for"id">Login</label>
+      <input type='text' id="id" class="form-control" ng-model="login">
+    </div>
+
+<br>
+    <div  >
+      <label for"id">Password</label>
+      <input type='password'  class="form-control" id='id'  ng-model="password">
+    </div>
+<br>
+    <button type="button"  class="btn btn-danger" ng-click="sub()"> Se Connecter</button>
+</div>
+</body>
   </form>
