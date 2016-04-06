@@ -1,35 +1,18 @@
-<html ng-app="amen">
-<head>
-<title>Login</title>
 
 
-<meta name="description" content="login"/>
-<meta charset="UTF-8">
-<!--css -->
-<link type="text/css" rel="stylesheet" href="../css/style.css">
-<!--Bootstrap -->
-<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
-
-</head>
-<body id="top" >
-
-<div ng-controller='userLogin'>
   <form name ='form1'>
-
+    <div >
+    <div class='form-group'>
       <p>Welcome : {{login}}</p>
-
-    Login :  <input type='text' name="login" required ng-model="login">
-
-    Password : <input type='password' required ng-model="password">
-
-    <button type="button" ng-click="submit()"> Se Connecter</button>
-  </form>
+      <label for='examplInputLogin'>Login</label>
+      <input type='text' id="examplInputLogin"
+      class="form-controller"  ng-model="login">
+    </div>
+    <div class='form-group'>
+      <label for ='examplInputPw'>Password</label>
+      <input type='password' class='form-controller'
+      id='examplInputPw'  ng-model="password">
+    </div>
+    <button type="button" ng-click="sub()"> Se Connecter</button>
 </div>
-<!--angular -->
-<script  src="../angular.min.js"></script>
-<script  src="../app.js"></script>
-<!--controllers -->
-
-
-</body>
-</html>
+  </form>
